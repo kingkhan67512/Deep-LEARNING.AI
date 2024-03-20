@@ -1,0 +1,75 @@
+body::before {
+
+    content: '';
+    display: block;
+    height: 70px;
+}
+
+@media screen and(max-width:630px) {
+    #buttons {
+        margin: 10px;
+
+    }
+}
+.text-color{
+    color: aqua;
+}
+
+#mycard {
+    box-shadow: 17px 25px 45px -8px rgba(186, 220, 62, 0.73);
+    -webkit-box-shadow: 17px 25px 45px -8px rgba(7, 14, 207, 0.473);
+    -moz-box-shadow: 17px 25px 45px -8px rgba(45, 42, 219, 0.73);
+    transition: all 0.5s;
+}
+
+
+
+#mycard:hover {
+    translate: 0px -4px;
+
+
+}
+
+@media screen and (min-width: 990px) {
+    .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 990px) {
+    #hero_image {
+        display: none;
+
+    }
+
+    #hero_content {
+        flex-grow: 1;
+
+        margin-bottom: 40px;
+
+    }
+
+    #mycardcontent {
+
+        height: 40vh;
+        padding-left: 600px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul,
+    p {
+        padding-right: 60px;
+
+    }
+
+}
+
+
+
+
+
+#hero {
+    background: linear-gradient(285.47deg, #002566 -11.15%, #7308DA -11.14%, #9800FF -8.21%, #161F7C -4.38%, #2E62ED 77.98%, #256BEC 80.23%, #1C74EB 84.75%, #20CAF2 101.67%);
+}
